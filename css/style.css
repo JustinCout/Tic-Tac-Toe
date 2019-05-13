@@ -1,24 +1,29 @@
-html {
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai");
+
+html, body {
   box-sizing: border-box;
   background-color: rgb(37, 34, 34);
 }
 
 .pure-g [class*="pure-u"] {
-  font-family: sans-serif;
+  font-family: "Baloo Bhai", cursive;
 }
 
 #header {
   background-color: rgb(19, 19, 19);
   position: absolute;
   height: 100px;
+  padding: 0 0 20px 0;
 }
 
 #title {
   display: block;
-  margin-top: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
   text-align: center;
   color: coral;
-  font-size: 69px;
+  font-size: 80px;
   animation: colorchange 5s forwards ease-in-out infinite;
 }
 
@@ -53,11 +58,11 @@ html {
 }
 
 #main div p {
-  font-size: 140px;
+  font-size: 190px;
   color: coral;
   text-align: center;
   position: relative;
-  bottom: 120px;
+  bottom: 230px;
   animation: glitch 0.5s infinite;
 }
 
@@ -109,7 +114,7 @@ html {
 /* New Game Button */
 
 #refresh {
-  padding: 1px;
+  padding: 1px 1px 5px 1px;
   position: relative;
   top: 40px;
   left: 50%;
@@ -143,7 +148,7 @@ h5 {
   text-align: center;
   font-size: 26px;
   color: white;
-  margin-top: 9px;
+  margin-top: 8px;
 }
 
 #refresh h5:hover {
@@ -301,11 +306,9 @@ h5 {
     height: 140px;
   }
 
-  #main {
-  }
-
   #main div p {
-    font-size: 120px;
+    font-size: 135px;
+    margin: 200px 0 0 0;
   }
 
   #refresh {
@@ -356,6 +359,7 @@ h5 {
 
   #main div p {
     font-size: 120px;
+    margin: 210px 0 0 0;
   }
 
   #refresh {
@@ -405,7 +409,7 @@ h5 {
 
   #main div p {
     font-size: 120px;
-    margin-top: 120px;
+    margin-top: 205px;
   }
 
   #refresh {
@@ -454,8 +458,8 @@ h5 {
   }
 
   #main div p {
-    font-size: 105px;
-    margin-top: 125px;
+    font-size: 120px;
+    margin-top: 205px;
   }
 
   #refresh {
@@ -481,8 +485,8 @@ h5 {
   }
 
   #main div p {
-    font-size: 90px;
-    margin-top: 125px;
+    font-size: 110px;
+    margin-top: 200px;
   }
 }
 
@@ -497,8 +501,8 @@ h5 {
   }
 
   #main div p {
-    font-size: 90px;
-    margin-top: 115px;
+    font-size: 100px;
+    margin-top: 205px;
   }
 }
 
@@ -513,25 +517,27 @@ h5 {
   }
 
   #main div p {
-    font-size: 90px;
-    margin-top: 115px;
+    font-size: 98px;
+    margin-top: 200px;
   }
 }
 
 @media only screen and (max-width: 338px) {
   #main {
-    width: 70%;
+    width: 275px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  [id^="block"] {
+    width: 75;
+    height: 75;
     margin: 0;
     padding: 0;
   }
 
-  [id^="block"] {
-    width: 75px;
-    height: 75px;
-  }
-
   #main div p {
     font-size: 90px;
-    margin-top: 115px;
+    margin-top: 205px;
   }
 }
