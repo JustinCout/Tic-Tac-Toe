@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai");
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   background-color: rgb(37, 34, 34);
 }
@@ -272,6 +273,7 @@ h5 {
 /* Responsive Design */
 
 @media only screen and (max-width: 1280px) {
+
   #header,
   #footer {
     height: 10%;
@@ -311,6 +313,10 @@ h5 {
     margin: 200px 0 0 0;
   }
 
+  #main {
+    margin: 10px 0 0 0;
+  }
+
   #refresh {
     top: 30px;
     width: 140px;
@@ -324,6 +330,7 @@ h5 {
 }
 
 @media only screen and (max-width: 870px) {
+
   /*this is specifically for tablets - it may look odd in any height below 1024px*/
   #header,
   #footer {
@@ -375,6 +382,7 @@ h5 {
 }
 
 @media only screen and (max-width: 726px) {
+
   #header,
   #footer {
     height: 10%;
@@ -425,6 +433,7 @@ h5 {
 }
 
 @media only screen and (max-width: 680px) {
+
   #header,
   #footer {
     height: 10%;
